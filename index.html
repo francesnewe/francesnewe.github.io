@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Needle — Coming Soon</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:linear-gradient(135deg,#0f172a,#020617);
+color:white;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.container{
+max-width:600px;
+padding:40px;
+}
+
+h1{
+font-size:60px;
+margin-bottom:10px;
+letter-spacing:2px;
+}
+
+p{
+font-size:20px;
+opacity:0.8;
+}
+
+.divider{
+width:60px;
+height:4px;
+background:#3b82f6;
+margin:25px auto;
+border-radius:2px;
+}
+
+.loader{
+margin:30px auto;
+border:4px solid rgba(255,255,255,0.1);
+border-top:4px solid #3b82f6;
+border-radius:50%;
+width:40px;
+height:40px;
+animation:spin 1s linear infinite;
+}
+
+@keyframes spin{
+0%{transform:rotate(0deg);}
+100%{transform:rotate(360deg);}
+}
+
+.footer{
+margin-top:40px;
+font-size:14px;
+opacity:0.6;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>The Needle</h1>
+
+<div class="divider"></div>
+
+<p>Our website is currently under construction.</p>
+
+<div class="loader"></div>
+
+<p>Launching soon.</p>
+
+<div class="footer">
+© 2026 The Needle
+</div>
+
+</div>
+
+</body>
+</html>
